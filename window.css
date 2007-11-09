@@ -12,13 +12,15 @@
 }
 .winbuttons {
 	top: 1px;
-	right: 10px;
+	right: 5px;
 	padding: 3px;
 	z-index: 10;
-	width: 48px;
+	width: 59px;
+	height: 19px;
 	white-space: nowrap;
 	text-align: right;
 	position: absolute;
+	background-image: url(./images/winbutnback.png);
 }
 .winbuttonclose,
 .winbuttonminimize,
@@ -26,7 +28,7 @@
 	z-index: 10;
 	display: inline;
 	width: 16px;
-	height: 16px;
+	height: 15px;
 	float: right;
 }
 .winbuttonclose {
@@ -43,12 +45,12 @@
 	/*width: 100%;*/
 	position: absolute;
 	top: 0px;
-	left: 6px;
-	right: 6px;
+	left: 17px;
+	right: 19px;
 	margin: 0px;
-	padding-top: 2px;
+	padding-top: 3px;
 	z-index: 1;
-        height: 27px;
+    height: 27px;
 	background-image: url(./images/tsunamiwindow_topcenter.png);
 }
 .wintitlebar {
