@@ -8,6 +8,7 @@
 	/*right: auto;
 	bottom: auto;*/
 	position: absolute;
+	float: left;
 	
 }
 .winbuttons {
@@ -77,6 +78,7 @@
 .winrightcorner,
 .winleftcorner {
 	height: 27px;
+	z-index: 1;
 }
 .winrightcorner {
 	background-image: url(./images/tsunamiwindow_topright.png);
