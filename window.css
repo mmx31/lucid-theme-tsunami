@@ -8,7 +8,6 @@
 	/*right: auto;
 	bottom: auto;*/
 	position: absolute;
-	float: left;
 	
 }
 .winbuttons {
@@ -46,10 +45,10 @@
 	/*width: 100%;*/
 	position: absolute;
 	top: 0px;
-	left: 17px;
-	right: 19px;
+	left: 19px;
+	right: 17px;
 	margin: 0px;
-	padding-top: 3px;
+	padding-top: 2px;
 	z-index: 1;
     height: 27px;
 	background-image: url(./images/tsunamiwindow_topcenter.png);
@@ -70,7 +69,7 @@
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;
 	position: absolute;
-	top: 22px;
+	top: 27px;
 	left: 1px;
 	right: 1px;
 	bottom: 1px;
@@ -83,12 +82,12 @@
 .winrightcorner {
 	background-image: url(./images/tsunamiwindow_topright.png);
 	float: right;
-	width: 19px;
+	width: 17px;
 }
 .winleftcorner {
 	background-image: url(./images/tsunamiwindow_topleft.png);
 	float: left;
-	width: 17px;
+	width: 19px;
 }
 .winresize {
 	width: 5px;
