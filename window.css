@@ -15,7 +15,7 @@
 	right: 4px;
 	padding: 3px;
 	z-index: 10;
-	width: 48px;
+	width: 55px;
 	white-space: nowrap;
 	text-align: right;
 	position: absolute;
@@ -48,7 +48,7 @@
 	margin: 0px;
 	padding-top: 2px;
 	z-index: 1;
-        height: 22px;
+        height: 27px;
 	background-image: url(./images/tsunamiwindow_topcenter.png);
 }
 .wintitlebar {
@@ -83,7 +83,6 @@
 }
 .winleftcorner {
 	background-image: url(./images/tsunamiwindow_topleft.png);
-
 	float: left;
 }
 .winresize {

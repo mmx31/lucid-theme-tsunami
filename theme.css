@@ -75,7 +75,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 .seperator {
 	background-image: url(./images/separator.png);
 	height:29px;
-	width: 3px;
+	width: 4px;
 }
 /******************** Console ********************/
 #console {
@@ -98,7 +98,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 .menubutton-icon
 {
 	background-image: url(./images/launch.png);
-	width: 140px;
+	width: 85px;
 	height: 24px;
 	background-repeat: no-repeat;
 }
