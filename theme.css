@@ -22,9 +22,9 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 	
 }
 #taskbarhider {
-  width: 12px;
+  width: 17px;
   z-index:101;
-  height:35px; 
+  height:29px; 
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -33,7 +33,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 /******************** Window List ********************/
 #appbar {
 	width: 100%;
-	height: 27px;
+	height: 29px;
 	background-color: transparent;
 	border:0px;
 	padding: 0px;
@@ -49,8 +49,8 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 	margin: 0px;
 	padding: 4px;
 	cursor: pointer;
-	height: 26px;
-	width: 191px;
+	height: 24px;
+	width: 140px;
 	font-size: 10pt;
 	white-space: nowrap;
 	text-align: center;
@@ -75,7 +75,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 .seperator {
 	background-image: url(./images/separator.png);
 	height:29px;
-	width: 4px;
+	width: 5px;
 }
 /******************** Console ********************/
 #console {
@@ -98,8 +98,8 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 .menubutton-icon
 {
 	background-image: url(./images/launch.png);
-	width: 85px;
-	height: 24px;
+	width: 71px;
+	height: 29px;
 	background-repeat: no-repeat;
 }
 

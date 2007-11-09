@@ -12,10 +12,10 @@
 }
 .winbuttons {
 	top: 1px;
-	right: 4px;
+	right: 10px;
 	padding: 3px;
 	z-index: 10;
-	width: 55px;
+	width: 48px;
 	white-space: nowrap;
 	text-align: right;
 	position: absolute;
@@ -52,7 +52,7 @@
 	background-image: url(./images/tsunamiwindow_topcenter.png);
 }
 .wintitlebar {
-	height: 22px;
+	height: 27px;
 	cursor: default;
 	overflow: hidden;
 	vertical-align: middle;
@@ -74,16 +74,17 @@
 }
 .winrightcorner,
 .winleftcorner {
-	width: 19px;
 	height: 27px;
 }
 .winrightcorner {
 	background-image: url(./images/tsunamiwindow_topright.png);
 	float: right;
+	width: 19px;
 }
 .winleftcorner {
 	background-image: url(./images/tsunamiwindow_topleft.png);
 	float: left;
+	width: 17px;
 }
 .winresize {
 	width: 5px;
