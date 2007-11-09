@@ -11,9 +11,9 @@
 	
 }
 .winbuttons {
-	top: 4px;
-	right: 13px;
-	padding: 3px;
+	top: 5px;
+	right: 18px;
+	padding-top: 2px;
 	z-index: 10;
 	width: 59px;
 	height: 19px;
@@ -26,7 +26,7 @@
 .winbuttonclose,
 .winbuttonminimize,
 .winbuttonmaximize {
-	z-index: 10;
+	z-index: 11;
 	display: inline;
 	width: 16px;
 	height: 15px;
@@ -114,12 +114,17 @@
 }
 .winleftborder {
 	background-image: url(./images/tsunamiwindow_leftborder.png);
+	background-repeat: repeat-y;
 	width: 10px;
+	height:	100%;
+	
 
 }
 .winrightborder {
 	background-image: url(./images/tsunamiwindow_rightborder.png);
+	background-repeat: repeat-y;
 	width: 10px;
+	height:	100%;
 	
 }
 
