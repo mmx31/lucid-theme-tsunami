@@ -30,13 +30,13 @@
 	float: right;
 }
 .winbuttonclose {
-	background-image: url("/images/tsunamiclose.png");
+	background-image: url(images/tsunamiclose.png);
 }
 .winbuttonminimize {
-	background-image: url("/images/tsunamiminimize.png");
+	background-image: url(images/tsunamiminimize.png);
 }
 .winbuttonmaximize {
-	background-image: url("../green/images/tsunamimaximize.png");
+	background-image: url(images/tsunamimaximize.png);
 }
 .winhandle {
 	white-space: nowrap;
@@ -49,7 +49,7 @@
 	padding-top: 2px;
 	z-index: 1;
         height: 22px;
-	background-image: url("/images/tsunamiwindow_topcenter.png");
+	background-image: url(images/tsunamiwindow_topcenter.png);
 }
 .wintitlebar {
 	height: 22px;
@@ -78,11 +78,11 @@
 	height: 27px;
 }
 .winrightcorner {
-	background-image: url("/green/images/tsunamiwindow_topright.png");
+	background-image: url(images/tsunamiwindow_topright.png);
 	float: right;
 }
 .winleftcorner {
-	background-image: url("/green/images/tsunamiwindow_topleft.png");
+	background-image: url(images/tsunamiwindow_topleft.png);
 
 	float: left;
 }
