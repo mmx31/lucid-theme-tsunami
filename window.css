@@ -11,7 +11,7 @@
 	
 }
 .winbuttons {
-	top: 1px;
+	top: 4px;
 	right: 5px;
 	padding: 3px;
 	z-index: 10;
@@ -30,12 +30,14 @@
 	width: 16px;
 	height: 15px;
 	float: right;
+	margin-right: 3px;
+	margin-left: 3px;
 }
 .winbuttonclose {
 	background-image: url(./images/tsunamiclose.png);
 }
 .winbuttonminimize {
-	background-image: url(.images/tsunamiminimize.png);
+	background-image: url(./images/tsunamiminimize.png);
 }
 .winbuttonmaximize {
 	background-image: url(./images/tsunamimaximize.png);
@@ -70,9 +72,9 @@
 	border-bottom: 1px solid gray;
 	position: absolute;
 	top: 27px;
-	left: 1px;
-	right: 1px;
-	bottom: 1px;
+	left: 7px;
+	right: 7px;
+	bottom: 10px;
 }
 .winrightcorner,
 .winleftcorner {
