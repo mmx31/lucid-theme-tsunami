@@ -21,6 +21,7 @@
 	text-align: right;
 	position: absolute;
 	background-image: url(./images/winbutnback.png);
+	background-repeat: no-repeat;
 }
 .winbuttonclose,
 .winbuttonminimize,
@@ -30,17 +31,20 @@
 	width: 16px;
 	height: 15px;
 	float: right;
-	margin-right: 3px;
-	margin-left: 3px;
 }
 .winbuttonclose {
 	background-image: url(./images/tsunamiclose.png);
+	margin-right: 2px;
 }
 .winbuttonminimize {
 	background-image: url(./images/tsunamiminimize.png);
+	margin-right: 4px;
+	margin-left: 2px;
+
 }
 .winbuttonmaximize {
 	background-image: url(./images/tsunamimaximize.png);
+	margin-right: 4px;
 }
 .winhandle {
 	white-space: nowrap;
@@ -107,5 +111,15 @@
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
+}
+.winleftborder {
+	background-image: url(./images/tsunamiwindow_leftborder.png);
+	width: 10px;
+
+}
+.winrightborder {
+	background-image: url(./images/tsunamiwindow_rightborder.png);
+	width: 10px;
+	
 }
 
