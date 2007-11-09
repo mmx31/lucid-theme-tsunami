@@ -1,0 +1,105 @@
+﻿/*
+TODO: there's alot of things in this that should be in /desktop.css instead of here...
+*/
+/******************** Taskbar ********************/
+#taskbar {
+  z-index:100;
+  height:29px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  background:url("/images/startbarmid.png");
+  width: 100%;
+}
+#taskbar td,
+#taskbar tr,
+#taskbar table,
+#taskbar tbody
+{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+#taskbarhider {
+  width: 12px;
+  z-index:101;
+  height:35px; 
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background:url("/images/hidebar.png");
+}
+/******************** Window List ********************/
+#appbar {
+	width: 100%;
+	height: 27px;
+	background-color: transparent;
+	border:0px;
+	padding: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+
+.taskBarItem {
+	display: inline;
+	background-image: url("/images/task.png");
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	margin: 0px;
+	padding: 4px;
+	cursor: pointer;
+	height: 26px;
+	width: 191px;
+	font-size: 10pt;
+	white-space: nowrap;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	color: white;
+}
+
+.taskBarItem img {
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-left: 5px;	
+	height: 16px;
+	width: 16px;
+}
+
+.taskBarItem a {
+	color: white;
+	text-decoration: none;
+}
+
+.seperator {
+	background-image: url("/images/separator.png");
+	height:29px;
+	width: 3px;
+}
+/******************** Console ********************/
+#console {
+	border: 1px solid grey;
+	background-color: black;
+	color: white;
+}
+#consoleinput {
+	width: 90%;
+	height: 20px;
+	border: none;
+	background-color: black;
+	color: white;
+}
+/******************** Toaster  ********************/
+#toaster{
+	background-color: #eeeeee;
+}
+/******************** Menu ********************/
+.menubutton-icon
+{
+	background-image: url("/images/launch.png");
+	width: 140px;
+	height: 24px;
+	background-repeat: no-repeat;
+}
+

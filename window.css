@@ -1,0 +1,106 @@
+﻿.win {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	top: 50px;
+	left: 50px;
+	/*right: auto;
+	bottom: auto;*/
+	position: absolute;
+	
+}
+.winbuttons {
+	top: 1px;
+	right: 4px;
+	padding: 3px;
+	z-index: 10;
+	width: 48px;
+	white-space: nowrap;
+	text-align: right;
+	position: absolute;
+}
+.winbuttonclose,
+.winbuttonminimize,
+.winbuttonmaximize {
+	z-index: 10;
+	display: inline;
+	width: 16px;
+	height: 16px;
+	float: right;
+}
+.winbuttonclose {
+	background-image: url("/images/tsunamiclose.png");
+}
+.winbuttonminimize {
+	background-image: url("/images/tsunamiminimize.png");
+}
+.winbuttonmaximize {
+	background-image: url("../green/images/tsunamimaximize.png");
+}
+.winhandle {
+	white-space: nowrap;
+	/*width: 100%;*/
+	position: absolute;
+	top: 0px;
+	left: 6px;
+	right: 6px;
+	margin: 0px;
+	padding-top: 2px;
+	z-index: 1;
+        height: 22px;
+	background-image: url("/images/tsunamiwindow_topcenter.png");
+}
+.wintitlebar {
+	height: 22px;
+	cursor: default;
+	overflow: hidden;
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+	/*margin: 2px 2px 2px 2px;*/
+}
+.winbody {
+	background-color: white;
+	overflow: hidden;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	position: absolute;
+	top: 22px;
+	left: 1px;
+	right: 1px;
+	bottom: 1px;
+}
+.winrightcorner,
+.winleftcorner {
+	width: 19px;
+	height: 27px;
+}
+.winrightcorner {
+	background-image: url("/green/images/tsunamiwindow_topright.png");
+	float: right;
+}
+.winleftcorner {
+	background-image: url("/green/images/tsunamiwindow_topleft.png");
+
+	float: left;
+}
+.winresize {
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	cursor: se-resize;
+}
+
+.wininnerbody {
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
