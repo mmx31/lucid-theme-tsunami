@@ -81,7 +81,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 /******************** Console ********************/
 #console {
 	border: 1px solid grey;
-	background-color: black;
+	background-color: #191970;
 	color: white;
 }
 #consoleinput {

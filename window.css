@@ -69,16 +69,13 @@
 	/*margin: 2px 2px 2px 2px;*/
 }
 .winbody {
-	background-color: white;
 	overflow: hidden;
-	border-left: 1px solid gray;
-	border-right: 1px solid gray;
-	border-bottom: 1px solid gray;
 	position: absolute;
 	top: 27px;
-	left: 6px;
-	right: 6px;
+	left: 0px;
+	right: 0px;
 	bottom: 10px;
+	margin-bottom: 16px;
 }
 .winrightcorner,
 .winleftcorner {
@@ -99,8 +96,8 @@
 	width: 5px;
 	height: 5px;
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	bottom: 4px;
+	right: 4px;
 	cursor: se-resize;
 }
 
@@ -113,23 +110,29 @@
 	bottom: 0px;
 	margin-left: 10px;
 	margin-right: 10px;
+	background-color: white;
 }
 .winleftborder {
-	/*background-image: url(./images/tsunamiwindow_leftborder.png);
-	background-repeat: repeat-y;*/
+	background-image: url(./images/tsunamiwindow_borderleft.png);
+	background-repeat: repeat-y;
 	width: 10px;
 	height:	100%;
-	background-color: black;
+	background-color: transparent;
 
 	
 
 }
 .winrightborder {
-	/*background-image: url(./images/tsunamiwindow_rightborder.png);
-	background-repeat: repeat-y;*/
+	background-image: url(./images/tsunamiwindow_borderright.png);
+	background-repeat: repeat-y;
 	width: 10px;
 	height:	100%;
-	background-color: black;
+	background-color: transparent;
 	
+}
+
+.winbottomborder {
+	height: 26px;
+	background-image: url(./images/tsunamiwindow_bottomcenter.png);
 }
 
