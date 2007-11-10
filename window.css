@@ -93,10 +93,10 @@
 	width: 19px;
 }
 .winresize {
-	width: 5px;
-	height: 5px;
+	width: 8px;
+	height: 8px;
 	position: absolute;
-	bottom: 4px;
+	bottom: 8px;
 	right: 4px;
 	cursor: se-resize;
 }
@@ -133,6 +133,31 @@
 
 .winbottomborder {
 	height: 26px;
+}
+.winbottomleft {
+	width: 19px;
+	height: 26px;
+}
+.winbottomright {
+	width: 17px;
+	height: 26px;
+}
+
+.winbottomleft {
+	background-image: url(./images/tsunamiwindow_bottomleft.png);
+	background-repeat: no-repeat;
+}
+
+.winbottomright {
+	background-image: url(./images/tsunamiwindow_bottomright.png);
+	background-repeat: no-repeat;
+}
+.winbottomcenter {
+	position:absolute;
+	height: 26px;
 	background-image: url(./images/tsunamiwindow_bottomcenter.png);
+	left: 19px;
+	right: 17px;
+	background-repeat: repeat-x;
 }
 
