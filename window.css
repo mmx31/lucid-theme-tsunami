@@ -36,6 +36,7 @@
 }
 .winbuttonclose {
 	background-image: url(./images/tsunamiclose.png);
+	margin-right: 4px;
 }
 .winbuttonminimize {
 	background-image: url(./images/tsunamiminimize.png);
@@ -75,8 +76,8 @@
 	border-bottom: 1px solid gray;
 	position: absolute;
 	top: 27px;
-	left: 13px;
-	right: 13px;
+	left: 6px;
+	right: 6px;
 	bottom: 10px;
 }
 .winrightcorner,
@@ -110,6 +111,8 @@
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .winleftborder {
 	/*background-image: url(./images/tsunamiwindow_leftborder.png);

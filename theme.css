@@ -76,6 +76,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 	background-image: url(./images/separator.png);
 	height:29px;
 	width: 5px;
+	margin-top: -5px;
 }
 /******************** Console ********************/
 #console {
