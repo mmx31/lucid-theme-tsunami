@@ -21,7 +21,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 	margin: 0px;
 	
 }
-#taskbarhider {
+.taskbarhider {
   width: 17px;
   z-index:101;
   height:29px; 
@@ -29,6 +29,15 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
   bottom: 0px;
   right: 0px;
   background:url(./images/hidebar.png);
+}
+.taskbarhider-hidden {
+  width: 17px;
+  z-index:101;
+  height:29px; 
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background:url(./images/showbar.png);
 }
 /******************** Window List ********************/
 #appbar {
