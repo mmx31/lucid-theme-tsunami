@@ -17,7 +17,7 @@
 	padding-left: 2px;
 	padding-right: 2px;
 	z-index: 10;
-	width: 59px;
+	width: 62px;
 	height: 19px;
 	white-space: nowrap;
 	text-align: right;
@@ -33,6 +33,7 @@
 	width: 16px;
 	height: 15px;
 	float: right;
+	background-repeat: no-repeat;
 }
 .winbuttonclose {
 	background-image: url(./images/tsunamiclose.png);
