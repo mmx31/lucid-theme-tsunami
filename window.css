@@ -59,6 +59,7 @@
 	z-index: 1;
     height: 27px;
 	background-image: url(./images/tsunamiwindow_topcenter.png);
+	background-repeat: no-repeat;
 	overflow: hidden;
 	vertical-align: middle;
 	color: white;
