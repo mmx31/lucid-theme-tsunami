@@ -67,6 +67,7 @@
 .winbody {
 	overflow: hidden;
 	position: absolute;
+	background-color: white;
 	top: 27px;
 	left: 0px;
 	right: 0px;
