@@ -59,15 +59,10 @@
 	z-index: 1;
     height: 27px;
 	background-image: url(./images/tsunamiwindow_topcenter.png);
-}
-.wintitlebar {
-	height: 27px;
-	cursor: default;
 	overflow: hidden;
 	vertical-align: middle;
 	color: white;
 	font-weight: bold;
-	/*margin: 2px 2px 2px 2px;*/
 }
 .winbody {
 	overflow: hidden;
