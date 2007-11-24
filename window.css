@@ -59,7 +59,7 @@
 	z-index: 1;
     height: 27px;
 	background-image: url(./images/tsunamiwindow_topcenter.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	overflow: hidden;
 	vertical-align: middle;
 	color: white;
@@ -68,7 +68,6 @@
 .winbody {
 	overflow: hidden;
 	position: absolute;
-	background-color: white;
 	top: 27px;
 	left: 0px;
 	right: 0px;
