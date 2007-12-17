@@ -1,6 +1,9 @@
-﻿/*
-TODO: there's alot of things in this that should be in /desktop.css instead of here...
-*/
+/* TODO: there's alot of things in this that should be in /desktop.css instead of here... */
+
+html, body {
+	font-family: sans-serif;
+}
+
 /******************** Taskbar ********************/
 #taskbar {
   z-index:100;
@@ -8,7 +11,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
   padding: 0px;
   margin: 0px;
   border: 0px;
-  background:url(./images/startbarmid.png);
+  background: url('./images/startbarmid.png');
   width: 100%;
 }
 #taskbar td,
@@ -89,7 +92,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 }
 /******************** Console ********************/
 #console {
-	border: 1px solid grey;
+	border: 1px solid gray;
 	background-color: #191970;
 	color: white;
 }
