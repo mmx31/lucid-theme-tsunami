@@ -61,6 +61,9 @@
 	background-image: url(./images/tsunamiwindow_borderleft.png);
 	padding-left: 10px;
 }
+.win > .win-bmw {
+	top: 27px;
+}
 .win-mr {
 	background-image: url(./images/tsunamiwindow_borderright.png);
 	padding-right: 10px;
