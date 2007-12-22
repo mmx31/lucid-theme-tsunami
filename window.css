@@ -5,6 +5,7 @@
 	margin-top: 3px;
 	width: 62px;
 	height: 19px;
+	right: 10px;
 	background-image: url(./images/winbutnback.png);
 }
 .win-close,
@@ -25,13 +26,14 @@
 	background-image: url(./images/tsunamimaximize.png);
 }
 .win-tc {
-	padding-top: 2px;
     height: 27px;
 	background-image: url(./images/tsunamiwindow_topcenter.png);
 }
 .win-title {
 	color: white;
 	font-weight: bold;
+	left: 20px;
+	padding-top: 2px;
 }
 .win-tr,
 .win-tl {
@@ -64,6 +66,16 @@
 .win > .win-bmw {
 	top: 27px;
 }
+
+.win-bmw > .win-ml {
+	bottom: 26px;
+}
+
+.win-mr > .win-mc {
+	left: 10px;
+	right: 10px;
+}
+
 .win-mr {
 	background-image: url(./images/tsunamiwindow_borderright.png);
 	padding-right: 10px;
