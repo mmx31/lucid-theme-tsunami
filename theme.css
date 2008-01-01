@@ -91,12 +91,12 @@ html, body {
 	margin-top: -5px;
 }
 /******************** Console ********************/
-#console {
+.console {
 	border: 1px solid gray;
 	background-color: #191970;
 	color: white;
 }
-#consoleinput {
+.consoleinput {
 	width: 90%;
 	height: 20px;
 	border: none;
