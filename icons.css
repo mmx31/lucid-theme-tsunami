@@ -355,7 +355,7 @@
 .icon-16-status-audio-volume-medium
 { width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/status/audio-volume-medium.png"); }
 .icon-16-status-audio-volume-muted
-{ width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/status/audio-volume-high.png"); }
+{ width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/status/audio-volume-muted.png"); }
 .icon-16-status-battery-caution
 { width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/status/battery-caution.png"); }
 .icon-16-status-dialog-error
@@ -772,7 +772,7 @@
 .icon-22-status-audio-volume-medium
 { width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/status/audio-volume-medium.png"); }
 .icon-22-status-audio-volume-muted
-{ width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/status/audio-volume-high.png"); }
+{ width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/status/audio-volume-muted.png"); }
 .icon-22-status-battery-caution
 { width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/status/battery-caution.png"); }
 .icon-22-status-dialog-error
@@ -1189,7 +1189,7 @@
 .icon-32-status-audio-volume-medium
 { width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/status/audio-volume-medium.png"); }
 .icon-32-status-audio-volume-muted
-{ width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/status/audio-volume-high.png"); }
+{ width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/status/audio-volume-muted.png"); }
 .icon-32-status-battery-caution
 { width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/status/battery-caution.png"); }
 .icon-32-status-dialog-error
