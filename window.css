@@ -19,6 +19,9 @@
 }
 .win-close {
 	background-image: url(./images/tsunamiclose.png);
+	margin-right: 0px;
+}
+.win-buttons > .win-close {
 	margin-right: 8px;
 }
 .win-min {
