@@ -5,42 +5,8 @@ html, body {
 }
 
 /******************** Taskbar ********************/
-#taskbar {
-  z-index:100;
-  height:29px;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+.desktopPanel {
   background: url('./images/startbarmid.png');
-  width: 100%;
-}
-#taskbar td,
-#taskbar tr,
-#taskbar table,
-#taskbar tbody
-{
-	border: 0px;
-	padding: 0px;
-	margin: 0px;
-	
-}
-.taskbarhider {
-  width: 17px;
-  z-index:101;
-  height:29px; 
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background:url(./images/hidebar.png);
-}
-.taskbarhider-hidden {
-  width: 17px;
-  z-index:101;
-  height:29px; 
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background:url(./images/showbar.png);
 }
 /******************** Window List ********************/
 #appbar {
