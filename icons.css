@@ -1,3 +1,10 @@
+.icon-loading-indicator {
+	background-image: url("./icons/load.gif");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
 /* 16x16 icons */
 
 .icon-16-actions-address-book-new
