@@ -83,6 +83,8 @@
 { width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/actions/go-last.png"); }
 .icon-16-actions-go-previous
 { width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/actions/go-previous.png"); }
+.icon-16-actions-go-next
+{ width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/actions/go-next.png"); }
 .icon-16-actions-go-top
 { width: 16px; height: 16px; background-repeat: no-repeat;  background-image: url("./icons/16x16/actions/go-top.png"); }
 .icon-16-actions-go-up
@@ -500,6 +502,8 @@
 { width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/actions/go-last.png"); }
 .icon-22-actions-go-previous
 { width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/actions/go-previous.png"); }
+.icon-22-actions-go-next
+{ width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/actions/go-next.png"); }
 .icon-22-actions-go-top
 { width: 22px; height: 22px; background-repeat: no-repeat;  background-image: url("./icons/22x22/actions/go-top.png"); }
 .icon-22-actions-go-up
@@ -917,6 +921,8 @@
 { width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/actions/go-last.png"); }
 .icon-32-actions-go-previous
 { width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/actions/go-previous.png"); }
+.icon-32-actions-go-next
+{ width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/actions/go-next.png"); }
 .icon-32-actions-go-top
 { width: 32px; height: 32px; background-repeat: no-repeat;  background-image: url("./icons/32x32/actions/go-top.png"); }
 .icon-32-actions-go-up
