@@ -1,63 +1,63 @@
 
 /* Menu */
- .dijitMenu {
+.themed .dijitMenu {
 	border: 1px solid #cbcbcb;
 	margin: 0px;
 	padding: 0px;
 	background-color: #fff;
 }
 
- .dijitMenuItem {
+.themed .dijitMenuItem {
 	background-color: #fff;
 	font: menu;
 	margin: 0px;
 	color: #243C5F;
 }
- .dijitMenuPreviousButton,  .dijitMenuNextButton {
+.themed .dijitMenuPreviousButton, .themed .dijitMenuNextButton {
 	font-style: italic;
 }
- .dijitMenuItem TD {
+.themed .dijitMenuItem TD {
 	padding:1px;
 }
 
- .dijitMenuItemHover {
+.themed .dijitMenuItemHover {
 	background-color: #d9e6f9; /* #95a0b0; #555555; #aaaaaa; #646464;  #60a1ea; #848484; */
 	color: #243C5F;
 }
 
- .dijitMenuItemIcon {
+.themed .dijitMenuItemIcon {
 	width: 15px;
 	height: 15px;
 	/* padding-right: 3px; */
 }
 
- .dijitMenuExpand {
+.themed .dijitMenuExpand {
 	display:none;
 }
- .dijitMenuExpandEnabled {
+.themed .dijitMenuExpandEnabled {
 	/* margin-top:4px;  */
 	width:15px;
 	height:15px;
 	background:url('images/spriteRoundedIconsSmall.png') no-repeat -30px top;
 	display:block;
 }
-.dj_ie6  .dijitMenuExpandEnabled {
+.dj_ie6 .themed .dijitMenuExpandEnabled {
 	background-image:url('images/spriteRoundedIconsSmall.gif');
 }
- .dijitMenuExpandInner {
+.themed .dijitMenuExpandInner {
 	display:none;
 }
 
- .dijitMenuSeparator {
+.themed .dijitMenuSeparator {
 	background-color: #fff;
 	height: 1px;
 }
 
 /* separator can be two pixels -- set border of either one to 0px to have only one */
- .dijitMenuSeparatorTop {
+.themed .dijitMenuSeparatorTop {
 	border-bottom: 1px solid #fff; /*97adcb; */
 }
 
- .dijitMenuSeparatorBottom {
+.themed .dijitMenuSeparatorBottom {
 	border-top: 1px solid #8ba0bd;
 }

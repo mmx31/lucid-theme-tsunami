@@ -14,8 +14,8 @@
 	
 */
 
+@import url("../dijit.css");
 @import url("Common.css");
-
 
 @import url("layout/TabContainer.css");
 @import url("layout/AccordionContainer.css");
