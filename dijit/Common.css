@@ -1,0 +1,36 @@
+
+/**** Disabled cursor *****/
+ .dijitSliderDisabled *,
+ .dijitDisabledClickableRegion,	/* a region the user would be able to click on, but it's disabled */
+ .dijitSpinnerDisabled *,
+ .dijitButtonDisabled *,
+ .dijitDropDownButtonDisabled *,
+ .dijitComboButtonDisabled *,
+ .dijitComboBoxDisabled *
+{
+	cursor: not-allowed !important;
+}
+
+/* DnD avatar-specific settings */
+/* For now it uses a default set of rules. Some other DnD classes can be modified as well. */
+ .dojoDndItemBefore {
+	border-top: 2px solid #369;
+}
+
+ .dojoDndItemAfter {
+	border-bottom: 2px solid #369;
+}
+
+ .dojoDndItemOver {
+	cursor:pointer;
+}
+
+ table.dojoDndAvatar { -moz-border-radius: 0; border: 1px solid #ccc; border-collapse: collapse; background-color: #fff; font-size: 75%; color: black;}
+ .dojoDndAvatar td	{ border: none; }
+ .dojoDndAvatar tr	{ border: none; }
+ .dojoDndAvatarHeader td	{ height: 20px; padding: 0 0 0 21px; }
+ .dojoDndAvatarItem td { padding: 2px;}
+.dojoDndMove .dojoDndAvatarHeader	{background-color: #f58383; background-image: url(images/dndNoMove.png); background-repeat: no-repeat; background-position: 2px center;}
+.dojoDndCopy .dojoDndAvatarHeader	{background-color: #f58383; background-image: url(images/dndNoCopy.png); background-repeat: no-repeat; background-position: 2px center;}
+.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-color: #97e68d; background-image: url(images/dndMove.png); background-repeat: no-repeat; background-position: 2px center;}
+.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-color: #97e68d; background-image: url(images/dndCopy.png); background-repeat: no-repeat; background-position: 2px center;}
