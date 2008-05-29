@@ -1,7 +1,7 @@
 
 /* Tree */
 
-.themed .dijitTreeNode {
+.dijit .dijitTreeNode {
     background : url('images/treeI.gif') no-repeat;
     background-position : top left;
     background-repeat : repeat-y;
@@ -10,26 +10,26 @@
 }
 
 /* left vertical line (grid) for all nodes */
-.themed .dijitTreeIsLast {
+.dijit .dijitTreeIsLast {
     background: url('images/treeI_half.gif') no-repeat;
 }
 
-.themed .dijitTreeLabel {
+.dijit .dijitTreeLabel {
 	font-weight: normal;
 	margin-left: 3px;	
 }
 
-.themed .dijitTreeIsRoot {
+.dijit .dijitTreeIsRoot {
     margin-left: 0;
     background-image: none;
 }
 
-.themed .dijitTreeExpando {
+.dijit .dijitTreeExpando {
     width: 18px;
     height: 18px;
 }
 
-.themed .dijitTreeContent {
+.dijit .dijitTreeContent {
     min-height: 18px;
     min-width: 18px;
     margin-left:18px;
@@ -38,53 +38,53 @@
 }
 
 
-.themed .dijitTreeExpand {
+.dijit .dijitTreeExpand {
     width: 18px;
     height: 18px;
     background-repeat : no-repeat;
 }
 
 /* same style as IE selection */
-.themed .dijitTreeNodeEmphasized {
+.dijit .dijitTreeNodeEmphasized {
     background-color: Highlight;
     color: HighlightText;
 }
 
 /* don't use :focus due to opera and IE's lack of support on div's */
-.themed .dijitTreeLabelFocused {
+.dijit .dijitTreeLabelFocused {
 	outline: 1px invert dotted;
 	background:#dde7f2;
 }
 
-.themed .dijitTreeExpandoOpened {
+.dijit .dijitTreeExpandoOpened {
 	background: url('images/spriteTree.gif') no-repeat -18px top;
 }
 
-.themed .dijitTreeExpandoClosed {
+.dijit .dijitTreeExpandoClosed {
 	background-image: url('images/spriteTree.gif');
 }
 
-.themed .dijitTreeExpandoLeaf {
+.dijit .dijitTreeExpandoLeaf {
 	background: url('images/spriteTree.gif') no-repeat -36px top;
 }
 
-.themed .dijitTreeExpandoLoading {
+.dijit .dijitTreeExpandoLoading {
 	background-image: url('images/treeExpand_loading.gif');
 }
 
-.themed .dijitTreeIcon {
+.dijit .dijitTreeIcon {
 	width: 16px;
 	height: 16px;
 }
 
-.themed .dijitFolderOpened {
+.dijit .dijitFolderOpened {
 	background: url('images/spriteDivIcons.gif') no-repeat -16px top;
 }
 
-.themed .dijitFolderClosed {
+.dijit .dijitFolderClosed {
 	background: url('images/spriteDivIcons.gif') no-repeat top left;
 }
 
-.themed .dijitLeaf {
+.dijit .dijitLeaf {
 	background: url('images/spriteDivIcons.gif') no-repeat -32px top;
 }

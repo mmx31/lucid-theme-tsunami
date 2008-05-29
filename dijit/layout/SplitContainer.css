@@ -3,7 +3,7 @@
  *
  */ 
 
-.themed .dijitSplitContainerSizerH {
+.dijit .dijitSplitContainerSizerH {
 	background:url("../images/splitContainerSizerV.png") repeat-y #cddef4;
 	border:0;
 	border-left:0px solid #436496;
@@ -11,14 +11,14 @@
 	width:5px;
 }
 
-.themed .dijitSplitContainerSizerH .thumb {
+.dijit .dijitSplitContainerSizerH .thumb {
 	background:url("../images/splitContainerSizerV-thumb.png") no-repeat #ccc;
 	left:1px;
 	width:2px;
 	height:19px;
 }
 
-.themed .dijitSplitContainerSizerV {
+.dijit .dijitSplitContainerSizerV {
 	background:url("../images/splitContainerSizerH.png") repeat-x #cddef4;
 	border:0;
 	border-top:0px solid #436496;
@@ -26,7 +26,7 @@
 	height:2px;
 }
 
-.themed .dijitSplitContainerSizerV .thumb {
+.dijit .dijitSplitContainerSizerV .thumb {
 	background:url("../images/splitContainerSizerH-thumb.png") no-repeat #ccc;
 	top:1px;
 	width:19px;

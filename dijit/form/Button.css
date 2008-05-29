@@ -6,7 +6,7 @@
 		dijit.form.ComboBox (partial)
  *****/
 
-.themed .dijitButtonNode {
+.dijit .dijitButtonNode {
 	/* enabled state - inner */
 	/* border:1px outset #a0a0a0; */
 	border:1px solid #8ba0bd;
@@ -15,74 +15,74 @@
 	padding: 0.2em;
 	background:#bcd5f0 url("../images/buttonEnabled.png") repeat-x top left;
 }
-.dj_ie .themed .dijitButtonNode {
+.dj_ie .dijit .dijitButtonNode {
 	zoom: 1;
 }
 
-.themed .dijitButtonText {
+.dijit .dijitButtonText {
 	padding: 0 0.3em;
 }
 
-.themed .dijitComboBox .dijitButtonNode {
+.dijit .dijitComboBox .dijitButtonNode {
 	border-width: 0px 0px 0px 1px;
 }
 
-.themed .dijitArrowButton {
+.dijit .dijitArrowButton {
 	color: #111;
 }
 
-.themed .dijitComboButton .dijitDownArrowButton {
+.dijit .dijitComboButton .dijitDownArrowButton {
 	padding-right:4px;
 }
 
-.dj_ff2 .themed .dijitComboButton .dijitButtonContentsFocused,
-.dj_ff2 .themed .dijitComboButton .dijitDownArrowButtonFocused {
+.dj_ff2 .dijit .dijitComboButton .dijitButtonContentsFocused,
+.dj_ff2 .dijit .dijitComboButton .dijitDownArrowButtonFocused {
 	border: 1px black dotted !important;
 }
 
-.themed .dijitButtonDisabled .dijitButtonNode,
-.themed .dijitToggleButtonDisabled .dijitButtonNode,
-.themed .dijitDropDownButtonDisabled .dijitButtonNode,
-.themed .dijitComboButtonDisabled .dijitButtonNode,
-.themed .dijitComboBoxDisabled,
-.themed .dijitSpinnerDisabled,
-.themed .dijitSpinnerDisabled .dijitButtonNode {
+.dijit .dijitButtonDisabled .dijitButtonNode,
+.dijit .dijitToggleButtonDisabled .dijitButtonNode,
+.dijit .dijitDropDownButtonDisabled .dijitButtonNode,
+.dijit .dijitComboButtonDisabled .dijitButtonNode,
+.dijit .dijitComboBoxDisabled,
+.dijit .dijitSpinnerDisabled,
+.dijit .dijitSpinnerDisabled .dijitButtonNode {
 	/* disabled state - inner */
 	border-color: #b9bbdd #b9bbdd #b9bbdd #b9bbdd;
 	/*color:#b4b4b4;*/
 	background:#c3d3e5 url("../images/buttonDisabled.png") top repeat-x;
 	opacity: 0.60; /* Safari, Opera and Mozilla */
 }
-.dj_ie .themed .dijitButtonDisabled .dijitButtonNode *,
-.dj_ie .themed .dijitToggleButtonDisabled .dijitButtonNode *,
-.dj_ie .themed .dijitDropDownButtonDisabled .dijitButtonNode *,
-.dj_ie .themed .dijitComboButtonDisabled .dijitButtonNode *,
-.dj_ie .themed .dijitSpinnerDisabled .dijitButtonNode * {
+.dj_ie .dijit .dijitButtonDisabled .dijitButtonNode *,
+.dj_ie .dijit .dijitToggleButtonDisabled .dijitButtonNode *,
+.dj_ie .dijit .dijitDropDownButtonDisabled .dijitButtonNode *,
+.dj_ie .dijit .dijitComboButtonDisabled .dijitButtonNode *,
+.dj_ie .dijit .dijitSpinnerDisabled .dijitButtonNode * {
 	filter: gray() alpha(opacity=50); /* IE */
 }
 
-.themed .dijitButtonHover .dijitButtonNode,
-.themed .dijitToggleButtonHover .dijitButtonNode,
-.themed .dijitDropDownButtonHover .dijitButtonNode,
-.themed .dijitComboButtonHover .dijitButtonContents,
-.themed .dijitComboButtonDownArrowHover .dijitDownArrowButton,
-.themed .dijitComboBoxHover .dijitDownArrowButton,
-.themed .dijitSpinnerUpArrowHover .dijitUpArrowButton,
-.themed .dijitSpinnerDownArrowHover .dijitDownArrowButton {
+.dijit .dijitButtonHover .dijitButtonNode,
+.dijit .dijitToggleButtonHover .dijitButtonNode,
+.dijit .dijitDropDownButtonHover .dijitButtonNode,
+.dijit .dijitComboButtonHover .dijitButtonContents,
+.dijit .dijitComboButtonDownArrowHover .dijitDownArrowButton,
+.dijit .dijitComboBoxHover .dijitDownArrowButton,
+.dijit .dijitSpinnerUpArrowHover .dijitUpArrowButton,
+.dijit .dijitSpinnerDownArrowHover .dijitDownArrowButton {
 	/* hover state - inner */
 	/* TODO: change from Hover to Selected so that button is still highlighted while drop down is being used */
 	color:#000;
 	background:#acc5e2 url("../images/buttonHover.png") repeat-x top left;
 }
 
-.themed .dijitSpinnerUpArrowActive .dijitUpArrowButton,
-.themed .dijitSpinnerDownArrowActive .dijitDownArrowButton,
-.themed .dijitButtonActive .dijitButtonNode,
-.themed .dijitToggleButtonActive .dijitButtonNode,
-.themed .dijitDropDownButtonActive .dijitButtonNode,
-.themed .dijitComboButtonActive .dijitButtonContents,
-.themed .dijitDownArrowActive .dijitDownArrowButton,
-.themed .dijitComboBoxActive .dijitDownArrowButton {
+.dijit .dijitSpinnerUpArrowActive .dijitUpArrowButton,
+.dijit .dijitSpinnerDownArrowActive .dijitDownArrowButton,
+.dijit .dijitButtonActive .dijitButtonNode,
+.dijit .dijitToggleButtonActive .dijitButtonNode,
+.dijit .dijitDropDownButtonActive .dijitButtonNode,
+.dijit .dijitComboButtonActive .dijitButtonContents,
+.dijit .dijitDownArrowActive .dijitDownArrowButton,
+.dijit .dijitComboBoxActive .dijitDownArrowButton {
 	/* active state - inner (for when you are pressing a normal button, or
 	 * when a toggle button is in a depressed state
 	 */
@@ -91,19 +91,19 @@
 }
 
 
-.themed .dijitArrowButtonInner {
+.dijit .dijitArrowButtonInner {
 	background:url("../images/spriteArrows.png") no-repeat left top;
 	width: 11px;
 }
-.themed .dijitUpArrowButton .dijitArrowButtonInner { 
+.dijit .dijitUpArrowButton .dijitArrowButtonInner { 
 	background:url("../images/spriteArrows.png") no-repeat -22px top; 
 	width: 11px;
 }
-.dj_ie6 .themed .dijitArrowButtonInner {
+.dj_ie6 .dijit .dijitArrowButtonInner {
 	background:url("../images/spriteArrows.gif") no-repeat left top;
 	width: 11px;
 }
-.dj_ie6 .themed .dijitUpArrowButton .dijitArrowButtonInner {
+.dj_ie6 .dijit .dijitUpArrowButton .dijitArrowButtonInner {
 	background:url("../images/spriteArrows.gif") no-repeat -22px top;
 	width: 11px;
 }

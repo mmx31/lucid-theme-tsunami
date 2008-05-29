@@ -8,7 +8,7 @@
  
 /* Classes for all types of tabs (top/bottom/left/right) */
 
-.themed .dijitTabPaneWrapper { /* Container for tab content */
+.dijit .dijitTabPaneWrapper { /* Container for tab content */
 	/*
 	overflow: hidden;
 	*/
@@ -16,7 +16,7 @@
 	border:1px solid #b1badf;
 }
 
-.themed .dijitTab { 
+.dijit .dijitTab { 
 	line-height:normal;
 	margin-right:3px;	/* space between one tab and the next in top/bottom mode */
 	padding:0px;
@@ -27,54 +27,54 @@
 	margin-bottom: -1px;	
 }
 
-.themed dijitTabChecked {
+.dijit dijitTabChecked {
 	margin-bottom: -2px;	
 }
 
-.themed .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitTabInnerDiv .dijitTabContent {
 	padding:8px 10px 4px 10px;
 	background: url("../images/tabContainerSprite.gif") repeat-x 0 -350px;
 }
 
-.themed .dijitTabInnerDiv {
+.dijit .dijitTabInnerDiv {
 	padding:0px 10px 0px 10px;
 	background: url("../images/tabContainerSprite.gif") no-repeat;
 	background-position: right -400px;
 	border: none;
 }
 
-.themed .dijitTabHover,
-.themed .dijitTabCloseButtonHover {
+.dijit .dijitTabHover,
+.dijit .dijitTabCloseButtonHover {
 	color: #243C5F;
 	background: url("../images/tabContainerSprite.gif") no-repeat 0px -150px;
 }
 
-.themed .dijitTabHover .dijitTabInnerDiv,
-.themed .dijitTabCloseButtonHover .dijitTabInnerDiv {
+.dijit .dijitTabHover .dijitTabInnerDiv,
+.dijit .dijitTabCloseButtonHover .dijitTabInnerDiv {
 	background: url("../images/tabContainerSprite.gif") no-repeat right -250px;
 	border: none;
 }
 
-.themed .dijitTabHover .dijitTabInnerDiv .dijitTabContent,
-.themed .dijitTabCloseButtonHover .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitTabHover .dijitTabInnerDiv .dijitTabContent,
+.dijit .dijitTabCloseButtonHover .dijitTabInnerDiv .dijitTabContent {
 	background: url("../images/tabContainerSprite.gif") repeat-x 0 -200px;
 	padding:8px 10px 4px 10px;
 }
 
-.themed .dijitTabChecked,
-.themed .dijitTabCloseButtonChecked
+.dijit .dijitTabChecked,
+.dijit .dijitTabCloseButtonChecked
 {
 	/* the selected tab (with or without hover) */
 	background: url("../images/tabContainerSprite.gif") no-repeat 0px -0px;
 }
 
-.themed .dijitTabChecked .dijitTabInnerDiv {
+.dijit .dijitTabChecked .dijitTabInnerDiv {
 	padding:0px 10px 0px 10px;
 	background: url("../images/tabContainerSprite.gif") no-repeat right -100px;
 	border: none;
 }
 
-.themed .dijitTabChecked .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitTabChecked .dijitTabInnerDiv .dijitTabContent {
 	background: url("../images/tabContainerSprite.gif") repeat-x 0 -50px;
 	padding:8px 10px 5px 10px;
 	color: #243C5F !important;
@@ -82,7 +82,7 @@
 
 /* top specific classes */
 
-.themed .dijitTabLabels-top {
+.dijit .dijitTabLabels-top {
 	border-left: 1px solid #b1badf;
 	border-top: 1px solid #b1badf;
 	border-right: 1px solid #b1badf;
@@ -93,7 +93,7 @@
 	padding-bottom: 4px;
 }
 /*
-.themed .dijitAlignTop .dijitTabStripe {
+.dijit .dijitAlignTop .dijitTabStripe {
 	background: url("../images/tabStripe.gif") repeat-x left bottom;
 	padding-left: 2px;
 	padding-top: 0px;
@@ -104,42 +104,42 @@
 }
 */
 
-.themed .dijitAlignLeft .dijitTab,
-.themed .dijitAlignRight .dijitTab {
+.dijit .dijitAlignLeft .dijitTab,
+.dijit .dijitAlignRight .dijitTab {
 	margin-right:0px;
 	margin-bottom:5px;	/* space between one tab and the next in left/right mode */
 }
 
 /* make the active tab white on the side next to the content pane */
-.themed .dijitAlignTop .dijitTabChecked,
-.themed .dijitAlignTop .dijitTabCloseButtonChecked
+.dijit .dijitAlignTop .dijitTabChecked,
+.dijit .dijitAlignTop .dijitTabCloseButtonChecked
 {
 	border-bottom-color:white;
 	vertical-align:bottom;
 }
 
-.themed .dijitAlignBottom .dijitTabChecked,
-.themed .dijitAlignBottom .dijitTabCloseButtonChecked
+.dijit .dijitAlignBottom .dijitTabChecked,
+.dijit .dijitAlignBottom .dijitTabCloseButtonChecked
 {
 	border-top-color:white;
 	/*-moz-border-radius:2px 2px 0px 0px; eliminate some border detritrus on moz */
 }
 
-.themed .dijitAlignLeft .dijitTabChecked,
-.themed .dijitAlignLeft .dijitTabCloseButtonChecked
+.dijit .dijitAlignLeft .dijitTabChecked,
+.dijit .dijitAlignLeft .dijitTabCloseButtonChecked
 {
 	border-right-color:white;
 }
 
-.themed .dijitAlignRight .dijitTabChecked,
-.themed .dijitAlignRight .dijitTabCloseButtonChecked
+.dijit .dijitAlignRight .dijitTabChecked,
+.dijit .dijitAlignRight .dijitTabCloseButtonChecked
 {
 	border-left-color:white;
 }
 
 /* bottom specific classes */
 
-.themed .dijitTabLabels-bottom {
+.dijit .dijitTabLabels-bottom {
 	padding-bottom: 2px;
 	padding-left: 3px;	
 	background-color: #f0f4fc;	
@@ -151,7 +151,7 @@
 	padding-right: 3px;	
 }
 /*
-.themed .dijitAlignBottom .dijitTabStripe {
+.dijit .dijitAlignBottom .dijitTabStripe {
 	background: url("../images/tabStripe.gif") repeat-x left bottom;
 	padding-left: 2px;
 	padding-top: 0px;
@@ -161,7 +161,7 @@
 	margin-left: -3px;
 }
 */
-.themed .dijitAlignBottom .dijitTab { 
+.dijit .dijitAlignBottom .dijitTab { 
 	line-height:normal;
 	margin-right:3px;	/* space between one tab and the next in top/bottom mode */
 	padding:0px;
@@ -173,90 +173,90 @@
 	margin-top: 1px;	
 }
 
-.themed .dijitAlignBottom .dijitTabChecked {
+.dijit .dijitAlignBottom .dijitTabChecked {
 	margin-bottom: 0px;	
 	margin-top: 0px !important;
 }
 
-.themed .dijitAlignBottom .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitAlignBottom .dijitTabInnerDiv .dijitTabContent {
 	padding:6px 10px 6px 10px;
 	background: url("../images/tabBottomEnabledC.gif") repeat-x bottom left;
 }
 
-.themed .dijitAlignBottom .dijitTabInnerDiv {
+.dijit .dijitAlignBottom .dijitTabInnerDiv {
 	padding:0px 10px 0px 10px;
 	background: url("../images/tabBottomEnabledSpriteLR.gif") no-repeat bottom right;
 	border: none;
 }
 
-.themed .dijitAlignBottom .dijitTabHover,
-.themed .dijitAlignBottom .dijitTabCloseButtonHover {
+.dijit .dijitAlignBottom .dijitTabHover,
+.dijit .dijitAlignBottom .dijitTabCloseButtonHover {
 	color: #243C5F;
 	background: url("../images/tabBottomHoverSpriteLR.gif") no-repeat bottom left;
 }
 
-.themed .dijitAlignBottom .dijitTabHover .dijitTabInnerDiv,
-.themed .dijitAlignBottom .dijitTabCloseButtonHover .dijitTabInnerDiv {
+.dijit .dijitAlignBottom .dijitTabHover .dijitTabInnerDiv,
+.dijit .dijitAlignBottom .dijitTabCloseButtonHover .dijitTabInnerDiv {
 	background: url("../images/tabBottomHoverSpriteLR.gif") no-repeat bottom right;
 	border: none;
 }
 
-.themed .dijitAlignBottom .dijitTabHover .dijitTabInnerDiv .dijitTabContent,
-.themed .dijitAlignBottom .dijitTabCloseButtonHover .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitAlignBottom .dijitTabHover .dijitTabInnerDiv .dijitTabContent,
+.dijit .dijitAlignBottom .dijitTabCloseButtonHover .dijitTabInnerDiv .dijitTabContent {
 	background: url("../images/tabBottomHoverC.gif") repeat-x bottom left;
 	padding:6px 10px 6px 10px;
 }
 
-.dj_ie6 .themed .dijitAlignBottom .dijitTabHover,
-.dj_ie6 .themed .dijitAlignBottom .dijitTabCloseButtonHover {
+.dj_ie6 .dijit .dijitAlignBottom .dijitTabHover,
+.dj_ie6 .dijit .dijitAlignBottom .dijitTabCloseButtonHover {
 	background-image: url("../images/tabHover.gif");
 }
 
-.themed .dijitAlignBottom .dijitTabChecked,
-.themed .dijitAlignBottom .dijitTabCloseButtonChecked
+.dijit .dijitAlignBottom .dijitTabChecked,
+.dijit .dijitAlignBottom .dijitTabCloseButtonChecked
 {
 	/* the selected tab (with or without hover) */
 	background: url("../images/tabBottomActiveSpriteLR.gif") no-repeat bottom left;
 }
 
-.themed .dijitAlignBottom .dijitTabChecked .dijitTabInnerDiv {
+.dijit .dijitAlignBottom .dijitTabChecked .dijitTabInnerDiv {
 	padding:0px 10px 0px 10px;
 	background: url("../images/tabBottomActiveSpriteLR.gif") no-repeat bottom right;
 	border: none;
 }
 
-.themed .dijitAlignBottom .dijitTabChecked .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitAlignBottom .dijitTabChecked .dijitTabInnerDiv .dijitTabContent {
 	background: url("../images/tabBottomActiveC.gif") repeat-x bottom left;
 	padding:7px 10px 6px 10px;
 }
 
 /* left specific classes */
-.themed .dijitAlignLeft .dijitTab {
+.dijit .dijitAlignLeft .dijitTab {
 	margin-right: 1px !important;
 }
 
-.themed .dijitAlignLeft .dijitTabChecked {
+.dijit .dijitAlignLeft .dijitTabChecked {
 	margin-right: 0px !important;	
 }
 
-.themed .dijitAlignLeft .dijitTabChecked .dijitTabInnerDiv {
+.dijit .dijitAlignLeft .dijitTabChecked .dijitTabInnerDiv {
 	background: url("../images/tabLeftChecked.gif") no-repeat right top !important;
 	padding-left: 10px;
 	border-bottom: 1px solid #8ba0bd !important;
 }
 
-.themed .dijitAlignLeft .dijitTabInnerDiv {
+.dijit .dijitAlignLeft .dijitTabInnerDiv {
 	background: url("../images/tabContainerSprite.gif") no-repeat right -350px;
 	padding-left: 10px;
 	border-bottom: 1px solid #b9bbdd;
 }
-.themed .dijitAlignLeft .dijitTabHover .dijitTabInnerDiv {
+.dijit .dijitAlignLeft .dijitTabHover .dijitTabInnerDiv {
 	background: url("../images/tabContainerSprite.gif") no-repeat right -200px;
 	padding-left: 10px;
 	border-bottom: 1px solid #b9bbdd;
 }
 
-.themed .dijitTabLabels-left-h {
+.dijit .dijitTabLabels-left-h {
 	padding-left: 2px;
 	padding-top: 3px;	
 	background-color: #f0f4fc;	
@@ -267,12 +267,12 @@
 	padding-right: 3px;
 }
 
-.themed .dijitAlignLeft .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitAlignLeft .dijitTabInnerDiv .dijitTabContent {
 	padding:7px 10px 6px 10px !important;
 }
 
 /* right specific classes */
-.themed .dijitTabLabels-right-h {
+.dijit .dijitTabLabels-right-h {
 	padding-right: 2px;
 	padding-top: 3px;	
 	background-color: #f0f4fc;	
@@ -283,52 +283,52 @@
 	padding-left: 3px;
 }
 
-.themed .dijitAlignRight .dijitTab {
+.dijit .dijitAlignRight .dijitTab {
 	margin-left: 1px;
 }
 
-.themed .dijitAlignRight .dijitTabChecked {
+.dijit .dijitAlignRight .dijitTabChecked {
 	margin-left: 0px;	
 }
 
-.themed .dijitAlignRight .dijitTabChecked {
+.dijit .dijitAlignRight .dijitTabChecked {
 	background: url("../images/tabRightChecked.gif") no-repeat left top !important;
 }
 
-.themed .dijitAlignRight .dijitTab {
+.dijit .dijitAlignRight .dijitTab {
 	background: url("../images/tabContainerSprite.gif") no-repeat left -350px;
 }
-.themed .dijitAlignRight .dijitTabHover .dijitTab {
+.dijit .dijitAlignRight .dijitTabHover .dijitTab {
 	background: url("../images/tabContainerSprite.gif") no-repeat left -200px;
 }
-.themed .dijitAlignRight .dijitTabInnerDiv .dijitTabContent {
+.dijit .dijitAlignRight .dijitTabInnerDiv .dijitTabContent {
 	padding:7px 10px 6px 10px !important;
 }
 
-.themed .dijitAlignRight .dijitTabChecked .dijitTabInnerDiv {
+.dijit .dijitAlignRight .dijitTabChecked .dijitTabInnerDiv {
 	border-bottom: 1px solid #8ba0bd !important;
 }
 
-.themed .dijitAlignRight .dijitTabInnerDiv {
+.dijit .dijitAlignRight .dijitTabInnerDiv {
 	border-bottom: 1px solid #b9bbdd;
 }
-.themed .dijitAlignRight .dijitTabHover .dijitTabInnerDiv {
+.dijit .dijitAlignRight .dijitTabHover .dijitTabInnerDiv {
 	border-bottom: 1px solid #b9bbdd;
 }
 
 /* make space for a positioned close button */
-.themed .dijitTab .dijitClosable {
+.dijit .dijitTab .dijitClosable {
 	position: relative;
 	padding-left: 10px !important;
 	padding-right: 20px !important;
 }
 
-.themed .dijitTab img {
+.dijit .dijitTab img {
 	padding: 0;
 	margin: 0;	
 }
 
-.themed .dijitTab .dijitClosable .closeImage {
+.dijit .dijitTab .dijitClosable .closeImage {
 	position:absolute;
 	top: 5px;
 	right: 5px;
@@ -341,14 +341,14 @@
 .dj_ie6 .dijitTab .dijitClosable .closeImage {
 	background:url("../images/spriteRoundedIconsSmallBl.gif") no-repeat -60px top;
 }
-.dj_ie6 .themed .dijitTabCloseButton .dijitClosable .closeImage {
+.dj_ie6 .dijit .dijitTabCloseButton .dijitClosable .closeImage {
 	background: url("../images/spriteRoundedIconsSmallBl.gif") no-repeat -60px top;
 }
 
-.themed .dijitTabHover .dijitClosable .closeImage {
+.dijit .dijitTabHover .dijitClosable .closeImage {
 	background: url("../images/spriteRoundedIconsSmallBl.png") no-repeat -60px -15px !important;
 }
-.dj_ie6 .themed .dijitTabHover .dijitClosable .closeImage {
+.dj_ie6 .dijit .dijitTabHover .dijitClosable .closeImage {
 	background: url("../images/spriteRoundedIconsSmallBl.gif") no-repeat -60px -15px !important;
 }
 
@@ -356,17 +356,17 @@
     We cant force hasLayout as that blows out the shrink wrapped tabs
     ..so we shim in the closeImage position properties instead
 */
-.dj_ie6 .themed .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
+.dj_ie6 .dijit .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
 	left:-20px;
 }
 
-.themed .dijitAlignBottom .dijitTab .dijitClosable .closeImage {
+.dijit .dijitAlignBottom .dijitTab .dijitClosable .closeImage {
 	top: auto;
 	bottom: 7px;
 	right: 3px;
 }
 
-.themed .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
+.dijit .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
 	top: 7px;
 	left: 3px;
 }

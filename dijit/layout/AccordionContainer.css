@@ -3,25 +3,25 @@
  *
  */ 
  
-.themed .dijitAccordionContainer {
+.dijit .dijitAccordionContainer {
 	border-color: #b1badf;	
 }
 
-.themed .dijitAccordionPane {
+.dijit .dijitAccordionPane {
 	background-color: #e7e7e7;
 	font-size: 0.9em;
 	font-weight: bold;
 	color: #373941;
 }
 
-.themed .dijitAccordionTitle {
+.dijit .dijitAccordionTitle {
 	background:#fafafa url("../images/titleBar.png") repeat-x top left;
 	border-top: 1px solid #b9bbdd;
 	padding: 5px 4px 6px 8px;
 	cursor:pointer;
 }
 
-.themed .dijitAccordionTitle-selected  {
+.dijit .dijitAccordionTitle-selected  {
 	background: #f9f9f9 url("../images/accordionItemActive.png") top repeat-x;
 	font-weight: bold;
 	border-top: 1px solid #b9bbdd;
@@ -31,18 +31,18 @@
 	color: #243C5F;
 }
 
-.themed .dijitAccordionArrow {
+.dijit .dijitAccordionArrow {
 	background:url("../images/spriteRoundedIconsSmallBl.gif") no-repeat;
 	width:15px;
 	height:15px;
 	margin-top:-1px;
 }
 
-.themed .dijitAccordionTitle-selected .dijitAccordionArrow {
+.dijit .dijitAccordionTitle-selected .dijitAccordionArrow {
 	background:url("../images/spriteRoundedIconsSmallBl.gif") no-repeat -15px top;
 	margin-top:-1px;
 }
 
-.themed .dijitAccordionBody {
+.dijit .dijitAccordionBody {
 	background: #fff;
 }

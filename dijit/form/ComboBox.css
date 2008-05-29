@@ -1,7 +1,7 @@
-.themed .dijitComboBox .dijitArrowButton .dijitArrowButtonInner {
+.dijit .dijitComboBox .dijitArrowButton .dijitArrowButtonInner {
 	background:url("../images/spriteArrows.png") no-repeat left center;
 	width: 11px;
 }
-.themed .dijitComboBoxHover .dijitArrowButtonInner {
+.dijit .dijitComboBoxHover .dijitArrowButtonInner {
 	/* TODO: url("images/arrowDownHover.png") but in IE6 it flickers some? */
 }

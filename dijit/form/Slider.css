@@ -3,42 +3,42 @@
  	SLIDER
 ****/
 
-.themed .dijitSliderProgressBarH {
+.dijit .dijitSliderProgressBarH {
 	border-color: #b1badf;
 	background: #c0c2c5 url("../images/sliderFull.png") repeat-x top left;
 }
 
-.themed .dijitSliderProgressBarV {
+.dijit .dijitSliderProgressBarV {
 	border-color: #b1badf;
 	background: #c0c2c5 url("../images/sliderFullVertical.png") repeat-y bottom left;
 }
 
-.themed .dijitSliderFocused .dijitSliderProgressBarH,
-.themed .dijitSliderFocused .dijitSliderLeftBumper {
+.dijit .dijitSliderFocused .dijitSliderProgressBarH,
+.dijit .dijitSliderFocused .dijitSliderLeftBumper {
 	background-image:url("../images/sliderFullFocus.png");
 }
 
-.themed .dijitSliderFocused .dijitSliderProgressBarV,
-.themed .dijitSliderFocused .dijitSliderBottomBumper {
+.dijit .dijitSliderFocused .dijitSliderProgressBarV,
+.dijit .dijitSliderFocused .dijitSliderBottomBumper {
 	background-image:url("../images/sliderFullVerticalFocus.png");
 }
 
-.themed .dijitSliderRemainingBarV {
+.dijit .dijitSliderRemainingBarV {
 	border-color: #b4b4b4;
 	background: #dcdcdc url("../images/sliderEmptyVertical.png") repeat-y bottom left;
 }
 
-.themed .dijitSliderRemainingBarH {
+.dijit .dijitSliderRemainingBarH {
 	border-color: #b4b4b4;
 	background: #dcdcdc url("../images/sliderEmpty.png") repeat-x top left;
 }
 
-.themed .dijitSliderBar {
+.dijit .dijitSliderBar {
 	border-style: solid;
 	outline:1px;
 	/* border-color: #b4b4b4; */
 }
-.themed .dijitSliderFocused .dijitSliderBar {
+.dijit .dijitSliderFocused .dijitSliderBar {
 	border-color:#8ba0bd;	
 }
 
@@ -46,35 +46,35 @@
 	background-color:#333 !important;
 }
 
-.themed .dijitSliderImageHandleH {
+.dijit .dijitSliderImageHandleH {
 	border:0px;
 	width:15px;
 	height:18px;
 	background:url("../images/preciseSliderThumb.png") no-repeat center top;
 	cursor:pointer;
 }
-.themed .dijitSliderFocused .dijitSliderImageHandleH {
+.dijit .dijitSliderFocused .dijitSliderImageHandleH {
 	background-image:url("../images/preciseSliderThumbFocus.png");
 	#background-image:url("../images/preciseSliderThumbFocus.gif");
 }
 
-.dj_ie6 .themed .dijitSliderImageHandleH {
+.dj_ie6 .dijit .dijitSliderImageHandleH {
 	background-image:url("../images/preciseSliderThumb.gif");
 }
 
-.themed .dijitSliderLeftBumper {
+.dijit .dijitSliderLeftBumper {
 	border-left-width: 1px;
 	border-color: #aab0bb;
 	background: #c0c2c5 url("../images/sliderFull.png") repeat-x top left;
 }
 
-.themed .dijitSliderRightBumper {
+.dijit .dijitSliderRightBumper {
 	background: #dcdcdc url("../images/sliderEmpty.png") repeat-x top left;
 	border-color: #b4b4b4;
 	border-right-width: 1px;
 }
 
-.themed .dijitSliderImageHandleV {
+.dijit .dijitSliderImageHandleV {
 	border:0px;
 	width:20px;
 	height:15px;
@@ -82,55 +82,55 @@
 	cursor:pointer;
 }
 
-.themed .dijitSliderFocused .dijitSliderImageHandleV {
+.dijit .dijitSliderFocused .dijitSliderImageHandleV {
 	background-image:url("../images/sliderThumbFocus.png");
 }
-.dj_ie6 .themed .dijitSliderFocused .dijitSliderImageHandleV {
+.dj_ie6 .dijit .dijitSliderFocused .dijitSliderImageHandleV {
 	background-image:url("../images/sliderThumbFocus.gif");
 }
 
-.themed .dijitSliderBottomBumper {
+.dijit .dijitSliderBottomBumper {
 	border-bottom-width: 1px;
 	border-color: #aab0bb;
 	background: #c0c2c5 url("../images/sliderFullVertical.png") repeat-y bottom left;
 }
 
-.themed .dijitSliderTopBumper {
+.dijit .dijitSliderTopBumper {
 	background: #dcdcdc url("../images/sliderEmptyVertical.png") repeat-y top left;
 	border-color: #b4b4b4;
 	border-top-width: 1px;
 }
 
-.themed .dijitSliderIncrementIconH,
-.themed .dijitSliderIncrementIconV {
+.dijit .dijitSliderIncrementIconH,
+.dijit .dijitSliderIncrementIconV {
 	background:url('../images/spriteRoundedIconsSmall.png') no-repeat -45px top;
 	width:15px; height:15px;
 	cursor:pointer;
 }
-.themed .dijitSliderIncrementIconH {
+.dijit .dijitSliderIncrementIconH {
 	background:url('../images/spriteRoundedIconsSmall.png') no-repeat -30px top;
 }
 
-.themed .dijitSliderDecrementIconH,
-.themed .dijitSliderDecrementIconV {
+.dijit .dijitSliderDecrementIconH,
+.dijit .dijitSliderDecrementIconV {
 	width:15px;
 	height:15px;
 	cursor:pointer;
 	background:url('../images/spriteRoundedIconsSmall.png') no-repeat -15px top;
 }
-.themed .dijitSliderDecrementIconH { background:url('../images/spriteRoundedIconsSmall.png') no-repeat 0px top; }
+.dijit .dijitSliderDecrementIconH { background:url('../images/spriteRoundedIconsSmall.png') no-repeat 0px top; }
 
-.themed .dijitSliderButtonInner {
+.dijit .dijitSliderButtonInner {
 	visibility:hidden;
 }
 
-.themed .dijitSliderDisabled {
+.dijit .dijitSliderDisabled {
 	opacity:0.6 !important;
 }
 
-.dj_ie6 .themed .dijitSliderDisabled,
-.dj_ie6 .themed .dijitSliderDisabled .dijitRuleContainer,
-.dj_ie6 .themed .dijitSliderDisabled .dijitSliderRemainingBar,
-.dj_ie6 .themed .dijitSliderDisabled .dijitSliderProgressBar {
+.dj_ie6 .dijit .dijitSliderDisabled,
+.dj_ie6 .dijit .dijitSliderDisabled .dijitRuleContainer,
+.dj_ie6 .dijit .dijitSliderDisabled .dijitSliderRemainingBar,
+.dj_ie6 .dijit .dijitSliderDisabled .dijitSliderProgressBar {
 	filter: gray() alpha(opacity=40);
 }

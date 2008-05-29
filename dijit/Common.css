@@ -1,36 +1,36 @@
 
 /**** Disabled cursor *****/
-.themed .dijitSliderDisabled *,
-.themed .dijitDisabledClickableRegion,	/* a region the user would be able to click on, but it's disabled */
-.themed .dijitSpinnerDisabled *,
-.themed .dijitButtonDisabled *,
-.themed .dijitDropDownButtonDisabled *,
-.themed .dijitComboButtonDisabled *,
-.themed .dijitComboBoxDisabled *
+.dijit .dijitSliderDisabled *,
+.dijit .dijitDisabledClickableRegion,	/* a region the user would be able to click on, but it's disabled */
+.dijit .dijitSpinnerDisabled *,
+.dijit .dijitButtonDisabled *,
+.dijit .dijitDropDownButtonDisabled *,
+.dijit .dijitComboButtonDisabled *,
+.dijit .dijitComboBoxDisabled *
 {
 	cursor: not-allowed !important;
 }
 
 /* DnD avatar-specific settings */
 /* For now it uses a default set of rules. Some other DnD classes can be modified as well. */
-.themed .dojoDndItemBefore {
+.dijit .dojoDndItemBefore {
 	border-top: 2px solid #369;
 }
 
-.themed .dojoDndItemAfter {
+.dijit .dojoDndItemAfter {
 	border-bottom: 2px solid #369;
 }
 
-.themed .dojoDndItemOver {
+.dijit .dojoDndItemOver {
 	cursor:pointer;
 }
 
-.themed table.dojoDndAvatar { -moz-border-radius: 0; border: 1px solid #ccc; border-collapse: collapse; background-color: #fff; font-size: 75%; color: black;}
-.themed .dojoDndAvatar td	{ border: none; }
-.themed .dojoDndAvatar tr	{ border: none; }
-.themed .dojoDndAvatarHeader td	{ height: 20px; padding: 0 0 0 21px; }
-.themed .dojoDndAvatarItem td { padding: 2px;}
-.themed.dojoDndMove .dojoDndAvatarHeader	{background-color: #f58383; background-image: url(images/dndNoMove.png); background-repeat: no-repeat; background-position: 2px center;}
-.themed.dojoDndCopy .dojoDndAvatarHeader	{background-color: #f58383; background-image: url(images/dndNoCopy.png); background-repeat: no-repeat; background-position: 2px center;}
-.themed.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-color: #97e68d; background-image: url(images/dndMove.png); background-repeat: no-repeat; background-position: 2px center;}
-.themed.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-color: #97e68d; background-image: url(images/dndCopy.png); background-repeat: no-repeat; background-position: 2px center;}
+.dijit table.dojoDndAvatar { -moz-border-radius: 0; border: 1px solid #ccc; border-collapse: collapse; background-color: #fff; font-size: 75%; color: black;}
+.dijit .dojoDndAvatar td	{ border: none; }
+.dijit .dojoDndAvatar tr	{ border: none; }
+.dijit .dojoDndAvatarHeader td	{ height: 20px; padding: 0 0 0 21px; }
+.dijit .dojoDndAvatarItem td { padding: 2px;}
+.dijit.dojoDndMove .dojoDndAvatarHeader	{background-color: #f58383; background-image: url(images/dndNoMove.png); background-repeat: no-repeat; background-position: 2px center;}
+.dijit.dojoDndCopy .dojoDndAvatarHeader	{background-color: #f58383; background-image: url(images/dndNoCopy.png); background-repeat: no-repeat; background-position: 2px center;}
+.dijit.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-color: #97e68d; background-image: url(images/dndMove.png); background-repeat: no-repeat; background-position: 2px center;}
+.dijit.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-color: #97e68d; background-image: url(images/dndCopy.png); background-repeat: no-repeat; background-position: 2px center;}

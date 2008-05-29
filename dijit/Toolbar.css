@@ -1,10 +1,10 @@
-.themed .dijitToolbar {
+.dijit .dijitToolbar {
 	padding: 3px 0 1px 3px;	
 	border-bottom: 1px solid #ccc;
 	background:#eaeaea url("images/titleBar.png") repeat-x top left;
 }
 
-.themed .dijitToolbar .dijitButtonNode {
+.dijit .dijitToolbar .dijitButtonNode {
 	background: none;
 	margin: 0px !important;
 	padding: 0px !important;	
@@ -12,25 +12,25 @@
 	font-size: 12px;
 }
 
-.themed .dijitToolbar .dijitButton,
-.themed .dijitToolbar .dijitToggleButton,
-.themed .dijitToolbar .dijitDropDownButton {
+.dijit .dijitToolbar .dijitButton,
+.dijit .dijitToolbar .dijitToggleButton,
+.dijit .dijitToolbar .dijitDropDownButton {
 	background: none;
 	margin: 1px;
 	padding: 0px;	
 	border: 1px solid transparent;
 }
 
-.themed .dijitToolbar .dijitButtonChecked,
-.themed .dijitToolbar .dijitToggleButtonChecked {
+.dijit .dijitToolbar .dijitButtonChecked,
+.dijit .dijitToolbar .dijitToggleButtonChecked {
 	background-color:#d8e5f8;
 	border:1px solid #316ac5;
 	margin: 1px !important;
 	padding: 0px !important;
 }
 
-.themed .dijitToolbar .dijitButtonCheckedHover,
-.themed .dijitToolbar .dijitToggleButtonCheckedHover
+.dijit .dijitToolbar .dijitButtonCheckedHover,
+.dijit .dijitToolbar .dijitToggleButtonCheckedHover
  {
 	background-color:#9abbea;
 	border:1px solid #316ac5;
@@ -38,56 +38,56 @@
 	padding: 0px !important;
 }
 
-.themed .dijitToolbar .dijitButtonHover,
-.themed .dijitToolbar .dijitToggleButtonHover,
-.themed .dijitToolbar .dijitDropDownButtonHover {
+.dijit .dijitToolbar .dijitButtonHover,
+.dijit .dijitToolbar .dijitToggleButtonHover,
+.dijit .dijitToolbar .dijitDropDownButtonHover {
 	/* TODO: change this from Hover to Selected so that button is still highlighted while drop down is being used */
 	border: 1px solid #316ac5;
 	background-color:#9abbea;
 }
 
-.themed .dijitToolbar label {	
+.dijit .dijitToolbar label {	
 	padding: 3px 3px 0 6px;
 }
 
-.dj_ie .themed .dijitToolbar .dijitComboButton .dijitButtonContentsFocused,
-.dj_ie .themed .dijitToolbar .dijitComboButton .dijitDownArrowButtonFocused,
-.dj_ff2 .themed.dijitToolbar .dijitComboButton .dijitButtonContentsFocused,
-.dj_ff2 .themed .dijitToolbar .dijitComboButton .dijitDownArrowButtonFocused {
+.dj_ie .dijit .dijitToolbar .dijitComboButton .dijitButtonContentsFocused,
+.dj_ie .dijit .dijitToolbar .dijitComboButton .dijitDownArrowButtonFocused,
+.dj_ff2 .dijit.dijitToolbar .dijitComboButton .dijitButtonContentsFocused,
+.dj_ff2 .dijit .dijitToolbar .dijitComboButton .dijitDownArrowButtonFocused {
 	border: 1px black dotted !important;	
 }
 
 /* IE6 specific rules */
-.dj_ie6 .themed .dijitToolbar .dijitButton,
-.dj_ie6 .themed .dijitToolbar .dijitToggleButton,
-.dj_ie6 .themed .dijitToolbar .dijitDropDownButton {
+.dj_ie6 .dijit .dijitToolbar .dijitButton,
+.dj_ie6 .dijit .dijitToolbar .dijitToggleButton,
+.dj_ie6 .dijit .dijitToolbar .dijitDropDownButton {
 	/* workaround no transparent border support in IE6 */
 	margin: 2px;
 	padding: 0px 2px;
 	border: 0px;
 }
 
-.dj_ie6 .themed .dijitToolbar .dijitButtonChecked,
-.dj_ie6 .themed .dijitToolbar .dijitToggleButtonChecked,
-.dj_ie6 .themed .dijitToolbar .dijitDropDownButtonChecked {
+.dj_ie6 .dijit .dijitToolbar .dijitButtonChecked,
+.dj_ie6 .dijit .dijitToolbar .dijitToggleButtonChecked,
+.dj_ie6 .dijit .dijitToolbar .dijitDropDownButtonChecked {
 	background-color:#d8e5f8;
 	border:1px solid #316ac5;
 	margin: 1px !important;
 	padding: 0px 2px !important;
 }
 
-.dj_ie6 .themed .dijitToolbar .dijitButtonCheckedHover,
-.dj_ie6 .themed .dijitToolbar .dijitToggleButtonCheckedHover,
-.dj_ie6 .themed .dijitToolbar .dijitDropDownButtonCheckedHover {
+.dj_ie6 .dijit .dijitToolbar .dijitButtonCheckedHover,
+.dj_ie6 .dijit .dijitToolbar .dijitToggleButtonCheckedHover,
+.dj_ie6 .dijit .dijitToolbar .dijitDropDownButtonCheckedHover {
 	background-color:#9abbea;
 	border:1px solid #316ac5;
 	margin: 1px !important;
 	padding: 0px 2px !important;
 }
 
-.dj_ie6 .themed .dijitToolbar .dijitButtonHover,
-.dj_ie6 .themed .dijitToolbar .dijitToggleButtonHover,
-.dj_ie6 .themed .dijitToolbar .dijitDropDownButtonHover  {
+.dj_ie6 .dijit .dijitToolbar .dijitButtonHover,
+.dj_ie6 .dijit .dijitToolbar .dijitToggleButtonHover,
+.dj_ie6 .dijit .dijitToolbar .dijitDropDownButtonHover  {
 	background-color:#9abbea;
 	border:1px solid #316ac5;
 	margin: 1px !important;
