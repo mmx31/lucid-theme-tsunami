@@ -7,6 +7,25 @@
 	border-color: #b1badf;	
 }
 
+/* nested classes */
+
+.dijit .dijitTabContainer-dijitAccordionContainer {
+    border: none;
+}
+
+.dijit .dijitAccordionContainer-dijitAccordionContainer {
+    border: none;
+    background-color: #fff;
+}
+
+.dijit .dijitSplitContainer-dijitAccordionContainer,
+.dijit .dijitBorderContainer-dijitAccordionContainer {
+    border: 1px #B1BADF solid;
+    background-color: #fff;
+}
+
+/* common */
+
 .dijit .dijitAccordionPane {
 	background-color: #e7e7e7;
 	font-size: 0.9em;
@@ -32,7 +51,7 @@
 }
 
 .dijit .dijitAccordionArrow {
-	background:url("../images/spriteRoundedIconsSmallBl.gif") no-repeat;
+	background:url("../images/spriteRoundedIconsSmallBl.gif") no-repeat -30px top;
 	width:15px;
 	height:15px;
 	margin-top:-1px;
@@ -43,6 +62,10 @@
 	margin-top:-1px;
 }
 
+.dijit .dijitAccordionText {
+	margin-left: 4px;
+	margin-right: 4px;
+}
 .dijit .dijitAccordionBody {
 	background: #fff;
 }

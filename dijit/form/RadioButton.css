@@ -55,14 +55,12 @@
 	background-position: -32px;
 }
 
-.dijit .dijitRadioHover,
-.dijit .dijitRadioFocused {
+.dijit .dijitRadioHover {
 	/* hovering over an unselected enabled radio button */
 	background-position: -80px;
 }
 
-.dijit .dijitRadioCheckedHover,
-.dijit .dijitRadioCheckedFocused {
+.dijit .dijitRadioCheckedHover {
 	/* hovering over a selected enabled radio button */
 	background-position: -64px;
 }

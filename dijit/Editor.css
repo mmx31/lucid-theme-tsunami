@@ -58,3 +58,6 @@
 .dijit .dijitEditorIconWikiword { background-position: -684px; }
 .dijit .dijitEditorIconToggleDir { background-position: -540px; /* padding: 0; margin: 0; color:#555555;
 									font-family:verdana,arial,sans-serif; font-weight: 800; font-size: 70%; */}
+.dijit .dijitEditorIconTabIndent { background-position: -702px; }
+.dijit .dijitEditorIconSelectAll { background-position: -720px; }
+.dijit .dijitEditorIconUnlink { background-position: -738px; }

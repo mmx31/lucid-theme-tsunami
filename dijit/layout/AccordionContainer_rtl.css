@@ -1,3 +1,8 @@
-.dijitRtl .dijitAccordionArrow {
-	background-position: -30px top;
+.dijitRtl .dijit .dijitAccordionArrow {
+	background-position: 0px top;
+}
+
+.dijitRtl .dijit .dijitAccordionTitle-selected .dijitAccordionArrow {
+	/* same rule as LTR mode, just listed to override previous rule in this file */
+	background-position: -15px top;
 }
